@@ -106,13 +106,15 @@ body{
     font-weight: 900;
 }
 .cancelar:hover{
-    color: rgba(54, 54, 54, 0.877);
+    color: rgb(54, 54, 54);
 }
 
 @media(min-width: 375px){
     body{
     background-image: url(images/pattern-background-desktop.svg); 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    
     }
     .conteudo{
         width: 400px;
